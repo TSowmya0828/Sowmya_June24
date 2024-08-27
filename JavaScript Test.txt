@@ -1,0 +1,120 @@
+Q2:
+
+        function checkNum(num){
+            if(num>0)
+            {
+                return "Positive";
+            }
+            else if(num<0)
+            {
+                return "Negative";
+            }
+            else{
+                return"Zero";
+            }
+        }
+        console.log(checkNum(5));
+
+
+Q3:
+
+let str="SS Rajamouli"
+let portion=str.substring(3,8);
+console.log(portion);
+
+
+Q4:
+
+let str="Hima Sumana! ";
+let beforeLen=str.length;
+let trimStr=str.trim();
+let afterLen=trimStr.length;
+
+console.log(beforeLen);
+console.log(afterLen);
+
+
+Q1:
+
+function convert(){
+    if(tofahrenheit.checked){
+        temp=Number(textbox.value);
+        temp=temp * 9 / 5 + 32;
+        result.textContent=temp+ "°F";
+    }
+    else if(tocelsius.checked){
+        temp=Number(textbox.value);
+        temp=(temp-32)*(5/9);
+        result.textContent=temp+ "°C";
+    }
+    else{
+        result.textContent="Select a unit";
+    }
+}
+
+
+Q12:
+
+  let age = 18;
+    let ownsCar = true; 
+
+    if (age > 16 && ownsCar) {
+        console.log("Sathya is old enough to drive and has his own car.");
+    }
+
+
+Q5:
+
+let person={
+name="Sowmya",
+age=18
+}
+console.log(person.name);
+console.log(person.age);
+
+
+Q6:
+
+let day=8;
+switch(day){
+case 1:document.write("It is Monday");
+       break;
+case 2:document.write("It is Tuesday");
+       break;
+case 3:document.write("It is Wednesday");
+       break;
+case 4:document.write("It is Thursday");
+       break;
+case 5:document.write("It is Friday");
+       break;
+case 6:document.write("It is Saturday");
+       break;  
+case 7:document.write("It is Sunday");
+       break;
+default:document.write(${day} is not a day);
+}
+
+
+Q7:
+
+let nestedArray = [1, [2, 3], [4, [5, 6]]];
+let flattenedArray = nestedArray.flat();
+console.log(flattenedArray);
+
+Q8:
+
+let arr=[12,453,4,91,8,62,7];
+console.log(arr.pop(3));
+
+
+Q9:
+
+let arr2=["Orange","Banana","kiwi"];
+console.log(arr2.find.indexOf(4));
+
+
+
+
+
+
+    
