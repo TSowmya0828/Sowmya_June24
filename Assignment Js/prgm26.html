@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const P=500000;
+        const rate=4;
+        const years=3;
+
+        const monthlyrate=(rate/12)*100;
+        const yearstomonths=years*12;
+
+        const EMI=P*monthlyrate*Math.pow((1+monthlyrate),yearstomonths)/Math.pow((1+monthlyrate),yearstomonths)-1;
+        console.log(+EMI);
+
+
+    </script>
+</body>
+</html>

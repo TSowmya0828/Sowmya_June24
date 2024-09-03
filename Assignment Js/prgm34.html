@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let start = parseInt(window.prompt("Enter the start value:"));
+        let end = parseInt(window.prompt("Enter the end value:"));
+
+        if (isNaN(start) || isNaN(end) || start > end) {
+            console.log("Invalid input. Please enter valid numbers where start is less than end.");
+        } else {
+            for (let i = start; i <= end; i++) {
+                console.log(i);
+            }
+        }
+    </script>
+</body>
+</html>

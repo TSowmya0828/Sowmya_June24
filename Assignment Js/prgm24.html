@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    const units=100;
+    let usertype="industry";
+
+    const domesticrate=10;
+    const industryrate=15;
+
+    let bill;
+    if(usertype=="domestic"){
+        bill=units*domesticrate;
+        console.log(+bill);
+    }
+    else if(usertype=="industry"){
+        bill=units*industryrate;
+        console.log(+bill);
+
+    }
+    else{
+        console.log("Invalid user");
+    }
+
+    
+   
+   </script>
+
+</body>
+</html>

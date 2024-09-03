@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let start=parseInt(window.prompt("Enter start"));
+        let end=parseInt(window.prompt("Enter end"));
+
+        if(isNaN(start) || isNaN(end) || start>end){
+            console.log("enter valid number");
+        }
+        else{
+            for(let i=start;i<=end;i++){
+                if(i%3===0){
+                    console.log(i);
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
